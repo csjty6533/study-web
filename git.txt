@@ -1,0 +1,10 @@
+1$git int :시작
+2$git add .:숨긴 폴더에 파일 저장
+3$git config--global user.name""
+4$git config--global user.email"":내가누군지 알려줌.
+5$git remote add origin 깃주소 :깃허브와 연결
+6$git remote set-url origin 깃주소:혹시 remote를 잘못했을때
+7$git commit -m"설명":버전 생성
+8$git push origin master:업로드(github아이디,비번)
+178파일 업로드시
+9$git clone https://github.com/아이디/폴더( ex)study-web).git:남의 꺼 복사할때
