@@ -1,0 +1,24 @@
+*{
+    padding:0px;margin:0px;box-sizing:border-box;
+    
+}
+.h{
+    position:fixed;z-index:1;background-color:white;
+    height:55px;width:100%;
+    display:grid;grid-template-columns:auto auto;justify-content: space-between;
+}
+.h1{
+    font-size:30px;padding:10px;
+}
+.n{
+    position:fixed;z-index:1;background-color:white;bottom:0px;
+    height:55px;width:100%;
+    display:grid;grid-template-columns:auto auto auto auto;
+}
+.n1{
+    text-align: center;
+}
+.m{
+    position:relative;top:55px;bottom:55px;display:grid;grid-template-columns: 1fr 10fr;
+    height:80%;
+}

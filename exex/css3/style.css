@@ -1,0 +1,14 @@
+.d1{
+    display:grid;grid-template-columns: auto auto;
+    background-color:tomato;border:10px solid blue;
+}
+.d-content1{
+    display:grid;
+}
+.d2{
+    display:grid;grid-template-columns: auto auto;
+    background-color: brown;border:10px solid blue;
+}
+.d-content2{
+    display:grid;
+}

@@ -1,0 +1,31 @@
+
+.grid-container{
+    border:10px solid blue;
+    display:grid;
+    grid-template-columns: auto auto auto auto;/*fr은 비율(100px 100px auto)는 마지막칸이 가로 다 차지함*/
+    
+}
+.grid-item{
+    background-color:rgb(145, 190, 228);
+    border:1px solid black;
+    padding:20px;
+    font-size: 30px;text-align:center;
+}
+.nav{
+    grid-row:  2 span;
+}
+.aside{
+    grid-row:  2 span;
+}
+.header{
+    grid-column: 3 span;
+}
+.photo{
+    grid-column:  2 span;
+}
+.section{
+    grid-column: 3 span;
+}
+.footer{
+    grid-column: 4 span;
+}

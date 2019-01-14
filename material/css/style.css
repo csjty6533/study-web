@@ -1,0 +1,45 @@
+*{
+    padding:0px;box-sizing: border-box;margin:0px;
+}
+.h{
+    position:fixed;
+    z-index: 1;
+    grid-template-columns: auto auto;
+    display:grid;  
+    width:100%;
+    height:60px;
+    justify-content: space-between;background-color: white;
+    padding:8px 10px;
+}
+.h1{
+    font-size: 30px;text-align:center;
+}
+.m{ 
+    position:relative;
+    display:grid; grid-template-columns: 1fr 10fr;width:100%;
+    top:60px;padding:0 10px;
+}
+.m1{
+    padding:5px 15px;height:55px;
+}
+.m2{
+    background-image:url(http://blogfiles.naver.net/MjAxODEwMTJfMTgz/MDAxNTM5MjczNzM2NzA2.JfNwSwTGbyngZKHDTDXHr7J6fKEC5VRpj5DeS768-H0g.McQMkU1FH3G4wm81BrN2YqpX_kHt8u8kjdfctHZVZukg.PNG.box182/%B9%AB%C1%A6585.png);
+    background-repeat: no-repeat;border:1px solid black;height:55px;
+    background-size:100% 100%;border-radius: 50%;border:transparent;
+}
+.n{
+    position:fixed; z-index: 1;  display:grid;bottom:0px;
+    grid-template-columns: auto auto auto auto;
+    height:55px;width:100%;background-color: white;
+}
+.n1{
+    text-align: center;padding:8px 0;
+}
+
+.p1{
+    font-size: 18px;
+}
+.p2{
+    font-size:10px;
+}
+

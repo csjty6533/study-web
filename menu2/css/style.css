@@ -1,0 +1,56 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+header{
+    background-color:rgb(231, 137, 137); color:white;font-size:35px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:30px;
+    text-align: center;
+}
+nav{
+    background-color:tomato;
+    text-align:center;
+}/* }ctrl+?는 주석처리 */
+nav .menu{
+    list-style-type: none;   
+}
+nav .menu li{
+    display:inline-block;  
+}
+nav .menu a{
+    display:inline-block;
+    text-decoration: none;color:white;font-size:17px;
+    padding:16px 10px;   
+}
+nav .menu .d-content {
+    position:absolute;display:none;
+    background-color:tomato;
+    min-width:77.4px;   
+}
+nav .menu .d-content a{
+    display:block;
+    text-align:left;    
+}
+nav .menu li:hover{
+    background-color:rgb(150, 44, 26);
+}
+nav .menu li:hover .d-content{
+    display:block;
+}
+
+@media(max-width:500px){
+    nav .menu li{
+        display:block;
+        position:relative;
+    }
+    nav .menu .d-content{
+        display:block;
+        position:relative;
+        width:100%;
+        display:none;
+    }
+    nav .menu li:hover{
+        background-color:rgb(150, 44, 26);   
+    }
+}

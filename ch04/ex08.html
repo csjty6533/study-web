@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            padding:0px;
+            margin:0px;
+
+        }
+    nav li a{
+        color:brown;
+        text-decoration: none;
+        
+    }
+    nav ul{
+        list-style-type:none;
+       
+    }
+    nav > ul > li{
+        display:inline-block;
+        padding:0 10px;
+    }
+    /*.dropdown{
+        display: none;
+    }*/
+    .dropdown{
+        position:absolute;
+        top:20px;
+        display:none;
+        
+    }
+    .list{
+        position:relative;
+    }
+    .list:hover .dropdown{
+        display:block;
+    }
+    .menu li:hover{
+        background-color:violet;
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="#"> home</a></li>
+            <li class="list"><a href="#">product</a> 
+                <ul class="dropdown">
+                    <li><a href="#">slider</a></li>
+                    <li><a href="#">gallery</a></li>
+                    <li><a href="#">apps</a></li>
+                </ul>
+            </li>
+            <li><a href="#">company</a> </li>
+            <li><a href="#">address</a> </li>
+        </ul>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,52 @@
+*{
+    padding:0px;margin:0px;box-sizing:border-box;
+}
+header{
+    background-image:url(https://www.lottehotel.com/content/dam/lotte-hotel/lotte/moscow/overview/local-guide/180712-5-2000-ove-moscow-hotel.jpg.thumb.768.768.jpg);
+    text-align:center;
+    height:100px;
+    font-size:30px;
+    padding:20px;
+}
+nav{
+    text-align:center;
+    background-color:tomato;
+}
+nav .menu{
+    list-style-type: none;
+}
+nav .menu li{
+    display:inline-block;
+}
+nav a{
+    text-decoration:none;
+    display:inline-block;
+    padding:16px 10px;
+    color:white;
+}
+nav .menu .d-content {
+    position:absolute;display:none;
+    min-width: 44.025px;
+    background-color:tomato;  
+}
+nav .menu .d-content a{
+    display:block;   
+}
+nav .menu li:hover{
+    background-color:rgb(150, 44, 26);
+}
+nav .menu li:hover .d-content{
+    display:block;   
+}
+@media(max-width:500px){
+    nav .menu li{
+        display:block;
+        position:relative;
+    }
+    nav .menu .d-content{
+        position:relative;
+        display:block;
+        display:none;
+    }
+}
+    
