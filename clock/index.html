@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="clock">
+
+    </div>
+    <script>
+        
+       
+        function startClock(){
+            let d=new Date();
+            console.log(d);
+            let year=d.getFullYear();
+            console.log(year);
+            let month=d.getMonth();
+            console.log(month+1);//0은 1월임
+            let date=d.getDate();
+            console.log(date);
+            let hour=d.getHours();
+            console.log(hour);
+            let min=d.getMinutes();
+            console.log(min);
+            let sec=d.getSeconds();
+            console.log(sec);
+            let clock=document.querySelector('#clock');
+            clock.innerHTML=hour+"시 "+min+"분 "+sec+"초";
+        }
+        setInterval(startClock,1000);//주기적으로 반복(두가지 인수-실행함수 이름 주기단위(밀리세컨즈1/1000))
+    </script>
+</body>
+</html>

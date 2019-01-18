@@ -1,0 +1,25 @@
+*{
+    padding:0px;margin:0px;box-sizing:border-box;
+}
+.g{
+    display:grid;grid-template-columns: auto auto;width:88%;
+    margin:6%;
+}
+.d-content{
+    justify-content: space-between;
+     display:grid;grid-template-columns: 1fr 2fr;
+     margin:0 20px;background-color:#dabcbcb2;
+     box-shadow: 10px 10px 5px rgb(170, 165, 165);
+}
+.d1{
+    
+}
+img{
+    width:155px;height:245px;position:relative;top:-20px;left:15px;
+    box-shadow: 10px 10px 5px rgb(170, 165, 165);
+}
+.b, .d{
+    font-size:13px;padding:30px 10px 0 25px;
+}
+
+    

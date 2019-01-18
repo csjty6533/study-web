@@ -6,5 +6,10 @@
 6$git remote set-url origin 깃주소:혹시 remote를 잘못했을때
 7$git commit -m"설명":버전 생성
 8$git push origin master:업로드(github아이디,비번)
-178파일 업로드시
-9$git clone https://github.com/아이디/폴더( ex)study-web).git:남의 꺼 복사할때
+178:파일 업로드시
+9$git clone https://github.com/아이디/폴더( ex)study-web).git:남의 꺼(최초)복사할때
+10$git pull origin master: 다운로드
+
+들고와서쓰기 템플릿 (부트스트랩) 메뉴만
+
+https://yts.am/api/v2/list_movies.json?limit=20&page=18&sort_byrating ----Json가져오기
