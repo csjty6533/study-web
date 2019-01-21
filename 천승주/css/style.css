@@ -5,41 +5,65 @@ header{
     height:765px;
 }
 main{
-    width:70%;margin:0 auto;
+    width:70%;
+    margin:0 auto;
 }
 .menu{
-    position:absolute;top:0px;width:100%;height:50px;text-align: center;padding:10px 0 0 0;
-    display:grid;grid-template-columns: 10fr 1fr 1fr 1fr 1fr 1fr;
+    position:absolute;
+    top:0px;
+    width:100%;height:50px;
+    text-align: center;
+    padding:20px 0 0 0;
+    display:grid;
+    grid-template-columns: 10fr 1fr 1fr 1fr 1fr 1fr;
 }
 .airbnb{
     height:60px;
-    display:grid;grid-template-columns: auto auto auto auto;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
 }
 .a-content{
-    display:grid;grid-template-columns: 1fr 2fr;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
 }
 .d4{
     height:200px;
-    display:grid;grid-template-columns:auto auto auto auto auto;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
 }
 .d5{
     height:100px;
-    display:grid;grid-template-columns:1fr 1fr 1fr 1fr;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+}
+.d4-content{
+    margin:0 10px;
 }
 .d5-content{
-    height:400px;
-    display:grid;grid-template-rows: 2fr 1fr;padding:10px;
+    height:300px;
+    display:grid;
+    grid-template-rows: 2fr 1fr;
+    padding:10px;
 }
 .d1{
-   height:100px;padding:50px 0 0 0;
+   height:90px;
+   padding:50px 0 0 0;
 }
 .menu2{
-    background-color:white; border-radius: 2px;padding:10px;
-    position: absolute;z-index: 1;top:140px;left:200px;
+    background-color:white;
+    border-radius: 2px;padding:10px;
+    position: absolute;
+    top:140px;left:200px;
+    display: grid;grid-template-columns: 1fr 1fr;
+    width:400px;
 }
 .d3{
     font-size:12px;
-    position: absolute;z-index: 1;top:573px;left:260px;
+    position: absolute;z-index: 1;
+    top:573px;left:260px;
+}
+.a, .d, .e, .t{
+    grid-column: 2 span;
 }
 .aa{
     background-size:100% 100%;
@@ -113,28 +137,37 @@ main{
     font-size:10px ;
 }
 .hov:hover{
-    border-bottom:1px solid white;
+    border-bottom:2px solid white;
 }
 .m-content{
-    font-size:10px;margin:10px;
+    font-size:10px;
+    margin:10px;
 }
 .d6{
     color:white;
-    position: relative; top:120px;text-align: center;
+    position: relative; 
+    top:120px;
+    text-align: center;
 }
 .p3{
     font-size:6px;
 }
 .important{
-    position:fixed !important;z-index: 2000 !important;  overflow-y: auto !important;
-    background: rgba(0, 0, 0, 0.75) !important;width:100% !important;height:100% !important;top:0px;bottom:0px;left:0px;
+    position:absolute !important;z-index: 2000 !important;  
+    overflow-y: auto !important;
+    background: rgba(0, 0, 0, 0.75) !important;width:100% !important;
+    height:100% !important;top:0px !important;bottom:0px !important;left:0px !important;
 }
 .import2{
-    position:relative;z-index:1;width:700px;margin:0 auto;
-    height:400px;top:-600px;
+    position:relative;z-index:1;
+    width:700px;margin:0 auto;
+    height:440px;top:-600px;
 }
 .login{
-    width:500px;text-align: center;margin:0 auto;height:100%;padding:10px;
+    width:500px;
+    text-align: center;
+    margin:0 auto;padding:10px;
+    height:100%;
     background-color:white;
 }
 .lc1{
@@ -146,24 +179,52 @@ main{
 .imp2{
     border:2px solid rgb(118, 118, 118);
 }
+.imp222{
+    display:grid;
+    grid-template-columns: 4fr 1fr 9fr;
+    border:2px solid rgb(118, 118, 118);
+}
 .imp5, .imp7{
-    font-size:13px;text-align: left;
+    font-size:13px;
+    text-align: left;
 }
 .button{
-    background: rgb(223, 60, 71);width:100%;border:1px solid white;color:white;padding:10px 0;
+    background: rgb(223, 60, 71);
+    width:100%;border:1px solid white;
+    color:white;
+    padding:10px 0;
 }
 .import2-08{
-    position:relative;z-index:1;width:700px;margin:0 auto;
-    height:240px;top:-600px;
+    position:relative;z-index:1;
+    width:700px; height:240px;
+    margin:0 auto;
+    top:-600px;
 }
 .login-content-08{
-    display:grid;grid-template-columns: auto;border:1px solid white;
+    display:grid;
+    grid-template-columns: auto;
+    border:1px solid white;
 }
 .imp8{
-    background: rgb(223, 60, 71);width:458px;border:1px solid white;color:white;
+    background: rgb(223, 60, 71);
+    width:458px;
+    border:1px solid white;
+    color:white;
 }
 .imp9{
-    text-align: left;font-size:13px;
+    text-align: left;
+    font-size:13px;
 }
-
+.k{
+    text-align: left;
+}
+.hr{
+    position: relative;
+    background-color:white;
+    width:40px;
+    margin:-10px auto;
+}
+.svg{
+    font-size:40px;color:white;margin:10px;
+}
 
